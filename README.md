@@ -90,5 +90,5 @@ Directory structure:
 ## 🚀 How to Run
 1. **Clone** the repository:
    ```bash
-   git clone https://github.com/Adrin-Bershik-C-J/java-day11-proj2.git
-   cd java-day11-proj2
+   git clone https://github.com/Adrin-Bershik-C-J/java-day12-proj2.git
+   cd java-day12-proj2
