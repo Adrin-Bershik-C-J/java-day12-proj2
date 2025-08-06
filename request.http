@@ -1,0 +1,67 @@
+###
+POST http://localhost:8080/api/student
+Content-Type: application/json
+
+{
+    "name":"Bershik",
+    "email":"bershik@gmail.com"
+}
+
+###
+GET http://localhost:8080/api/student/203
+
+###
+PUT http://localhost:8080/api/student/202
+Content-Type: application/json
+
+{
+  "name": "Adrin Bershik",
+  "email": "adrin_updated@gmail.com"
+}
+
+###
+DELETE http://localhost:8080/api/student/202
+
+
+###
+POST http://localhost:8080/api/course
+Content-Type: application/json
+
+{
+    "title":"Spring",
+    "description":"hands on spring course"
+}
+# 203 103
+###
+GET http://localhost:8080/api/course/102
+
+###
+PUT http://localhost:8080/api/course/103
+Content-Type: application/json
+
+{
+    "title":"Spring Boot",
+    "description":"hands on spring course project"
+}
+
+###
+DELETE http://localhost:8080/api/course/102
+
+###
+POST http://localhost:8080/api/enroll
+Content-Type: application/json
+
+{
+    "student": {
+        "studentId": 203
+    },
+    "course": {
+        "courseId": 103
+    }
+}
+
+###
+GET http://localhost:8080/api/enroll
+
+###
+GET http://localhost:8080/api/enroll/student/203
