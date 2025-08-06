@@ -1,4 +1,4 @@
-# 📚 Java Day11 Project 2 - Student Course Enrollment System
+# 📚 Java Day12 Project 2 - Student Course Enrollment System
 
 This is a **Spring Boot** application that manages **Students**, **Courses**, and **Enrollments** using a clean **DTO-based architecture**.  
 It demonstrates **CRUD operations**, **DTO mapping**, and **RESTful API** best practices.
@@ -21,7 +21,9 @@ It demonstrates **CRUD operations**, **DTO mapping**, and **RESTful API** best p
 ## 🗂️ Project Structure
 ```
 Directory structure:
-└── adrin-bershik-c-j-java-day11-proj2/
+└── adrin-bershik-c-j-java-day12-proj2/
+    ├── README.md
+    ├── day11proj2.txt
     ├── mvnw
     ├── mvnw.cmd
     ├── pom.xml
@@ -45,6 +47,9 @@ Directory structure:
     │   │   │               │   ├── Course.java
     │   │   │               │   ├── Enrollment.java
     │   │   │               │   └── Student.java
+    │   │   │               ├── exceptions/
+    │   │   │               │   ├── GlobalExceptionHandler.java
+    │   │   │               │   └── ResourceNotFoundException.java
     │   │   │               ├── repository/
     │   │   │               │   ├── CourseRepository.java
     │   │   │               │   ├── EnrollmentRepository.java
@@ -67,6 +72,7 @@ Directory structure:
     └── .mvn/
         └── wrapper/
             └── maven-wrapper.properties
+
 ```
 
 ---
